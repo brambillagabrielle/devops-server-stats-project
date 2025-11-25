@@ -34,7 +34,7 @@ server-stats.sh
 
 ## Prerequisites
 
-Ensure that the `awk` tool is available on your Linux server by running:
+Ensure that the `awk` tool is available on your Linux terminal by running:
 
 ```bash
 awk --version
