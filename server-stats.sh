@@ -25,7 +25,7 @@ echo
 
 # Top 5 processes by CPU usage
 echo "___ Top 5 Processes by CPU Usage ___"
-ps aux --sort -%cpu | head -n 5
+ps aux --sort -%cpu | head -n 6
 echo
 
 # Total memory usage (Free vs Used including percentage)
@@ -45,7 +45,7 @@ used_disk=$(df --total | awk -f ./awk-scripts/disk/used.awk)
 
 # Top 5 processes by memory usage
 echo "___ Top 5 Processes by Memory Usage ___"
-ps aux --sort -%mem | head -n 5
+ps aux --sort -%mem | head -n 6
 echo
 
 echo " -> Total Disk Usage: $total_disk (100%)"
