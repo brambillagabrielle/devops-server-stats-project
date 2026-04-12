@@ -1,6 +1,6 @@
 # Server Performance Stats Project
 
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 ## About the Project
 
@@ -54,4 +54,5 @@ Make sure the script has execute permissions. If not, you can grant them using:
 
 ```bash
 chmod +x server-stats.sh
+
 ```
